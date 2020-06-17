@@ -36,4 +36,4 @@ jobs:
 
       - name: deploying surge
       
-        run: surge ./build contextapi_reducer.surge.sh --token ${{ secrets.SURGE_TOKEN_CONTEXTAPI }}
+        run: surge ./build contextapi_reducer.surge.sh --token $ {{ secrets.SURGE_TOKEN_CONTEXTAPI }}
